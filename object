@@ -1,0 +1,8 @@
+#object
+
+from pythoncode import Student
+
+student1 = Student('bilal','accounting','3.9','false')
+student2 = Student('aisha','engineering','3.1','false')
+
+print(student1.name)

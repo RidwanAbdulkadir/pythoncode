@@ -1,0 +1,12 @@
+#if statements and comparison
+# '!=' stands for not equal to, '==' double checks equal to
+def max_num(num1,num2,num3): #this is a function with numbers and parameters passed into it
+    if num1 >= num2 and num1 >= num3: #this is a comparison between the numbers and parameters which have been passed
+        return num1 #this is the value that is returned if the condition has been fulfilled
+    elif num2 >= num1 and num2 >= num3: #this is a comparison between values passed
+        return num2 # this is the value returned if condition is fulfilled
+    else: #this functions is executed when all other condition is not fulfilled
+        return num3 #this is the value returned
+
+print(max_num(45,25,5)) #this calls the function and allows it to be executed
+

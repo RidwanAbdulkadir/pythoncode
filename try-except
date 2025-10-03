@@ -1,0 +1,17 @@
+#try except
+try:
+    number = float(input('Enter a number: '))
+    print(number)
+except:
+    print('invalid input')
+
+#another scenario
+try:
+    number = float(input('Enter a number: '))
+    print(number)
+except ZeroDivisionError:
+    print('invalid operation')
+except ValueError:
+    print('invalid input')
+
+

@@ -1,0 +1,42 @@
+#working with tuple
+coordinates = (2,3,4,6,89,21) #items in a tuple
+coordinates2 = [(4,5), (5,7), (69,6)] #tuple inside a list
+
+print (coordinates[1]) #returns the items in the coordinate
+print (coordinates2) #returns the items in the coordinate
+
+#working with functions
+def say_hello(): #this is a function
+    print ('Hello world') #this code passed into the function returns hello world
+
+say_hello() #this is known as calling a function, it allows the function to be executed
+
+#another scenario
+def say_hello(): #this is a function
+    print ('Hello world') #this code passed into the function returns hello world
+
+print ('top') #this code is outside the function because it is not indented
+say_hello() #this is known as calling a function, it allows the function to be executed
+print ('bottom') #this code is outside the function because it is not indented
+
+#giving a name to a function
+def say_hello(name): #this is a function with a parameter passed into it
+    print ('Hello '+name) #this code passed into the function returns hello +
+
+say_hello('africa') #this calling a function with parameters passed into it
+say_hello('Nigeria') #this calling a function with parameters passed into it
+
+#function with more parameters
+def say_hello(name,occupation,age): #this is a function with a parameter passed into it
+    print ('Hello '+name, 'you are a '+occupation, 'you are '+age) #this code passed into the function returns hello +
+
+say_hello('Bilal',  'software engineer', '50') #this calling a function with parameters passed into it
+say_hello('Ahmad',  'DevOps engineer','30') #this calling a function with parameters passed into it
+
+#fucntions with strings or booleans
+def say_hello(name,occupation,age): #this is a function with a parameter passed into it
+    print ('Hello '+name, 'you are a '+occupation, 'you are '+str(age)) #this code passed into the function returns hello +
+
+say_hello('Bilal',  'software engineer', 50) #this calling a function with parameters passed into it
+say_hello('Ahmad',  'DevOps engineer',30) #this calling a function with parameters passed into it
+

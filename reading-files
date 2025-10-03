@@ -1,0 +1,17 @@
+#reading files
+open('employee.txt', 'r') #reads the content of the files only
+open('employee.txt', 'w') #writes to the file
+open('employee.txt', 'r+') #can read and write to the file
+open('employee.txt', 'a') #appends values to the end of the file
+
+
+employee_file = open('employee.txt', 'r')
+
+print(employee_file.readable()) #checks if the file is readable
+print(employee_file.read()) #spits out all the information inside the file
+print(employee_file.readline()) #reads an individual line inside of a file only from the first line 
+print(employee_file.readlines()) #prints all the lines inside of a file in an array
+print(employee_file.readlines()[4]) #this cmd points to the desired line to be returned
+
+
+employee_file.close()

@@ -1,0 +1,3 @@
+import pycode #this import values from the specified file
+
+print(pycode.roll_dice(20)) #the values of the imported files are returned with the parameters passed into it

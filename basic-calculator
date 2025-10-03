@@ -1,0 +1,13 @@
+#Getting input from users
+name = input("Enter your name: ") #collects data from the user
+age = input("Enter your age: ") ##collects data from the user
+
+print ("Hello "+ name + "!", "you are "+age+ " years old") # returns the data input from a user with other details appended to it
+
+#Basic Calculator
+num1 = input ("Enter a number: ") #collects data/number input
+num2 = input ("Enter another number: ") #collects data/number input
+#result = int(num1) + int(num2) #returns the calculations as long as it is a whole number
+result = float(num1) + float(num2) #returns the calculations whether it is decimal or a whole number
+print (result) #returns the calculations
+

@@ -1,0 +1,9 @@
+Character_Name = "Ridwan"
+Character_Age = "50"
+print ("There was once a man named", Character_Name )
+print ("He was", Character_Age )
+
+Character_Name = "Bilal"
+print ("He really liked the name", Character_Name )
+print ("But didn't like being", Character_Age)
+print ("But wishes to live up to 100")

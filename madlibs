@@ -1,0 +1,8 @@
+colour = input("Enter a colour: ") #collects input from user
+Plural_Noun = input("Enter a Plural_Noun: ") #collects input from user
+celebrity = input("Enter a celebrity: ") #collects input from user
+
+print ("Roses are "+colour) #returns variables plus user input
+print (Plural_Noun+ " are blue") #returns variables plus user input
+print ("I love "+celebrity) #returns variables plus user input
+

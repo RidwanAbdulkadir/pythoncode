@@ -1,0 +1,20 @@
+#working with dictionary
+
+monthconversions = {
+    'Jan': 'January',
+    'Feb': 'February',
+    'Mar': 'March',
+    'Apr': 'April',
+    'May': 'May',
+    'Jun': 'June',
+    'Jul': 'July',
+    'Aug': 'August',
+    'Sep': 'September',
+    'Oct': 'October',
+    'Nov': 'November',
+    'Dec': 'December'
+}
+
+print(monthconversions['Nov']) #this print out the value associated to the key entered from the dictionary
+print(monthconversions.get('luv', 'not a valid key')) #this print out the value associated to the key entered and if the value is not there it returns something else or the value passed into it
+

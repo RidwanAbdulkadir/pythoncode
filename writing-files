@@ -1,0 +1,15 @@
+#writing to a file
+employee_file = open('employee.txt', 'a') #this append information to the end of the file
+
+employee_file.write('toby - human resources') #adds this information to file
+employee_file.write('\nadam - customer service') #adds this information to the file starting from a new line at the end of the file
+
+
+employee_file.close()
+
+#another scenario
+employee_file = open('employee.txt', 'w') #this writes a file and can be used to create a new file
+
+employee_file.write('toby - human resources') #this cmd will overwrite the file because the file is already in write mode no need for the cmd hence the overwrite
+
+employee_file.close()

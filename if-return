@@ -1,0 +1,52 @@
+# return statements
+def cube (num): #this is a function with a number parameter passed into it
+    return num*num*num #this returns the value in the functions
+
+print(cube(5)) #this calls the function which allows it to be executed with the parameter passed into it
+
+#another scenario
+def cube (num): #this is a function with a number parameter passed into it
+    return num*num*num #this returns the value in the functions
+
+result = cube (4) #this stores the values to be returned from the function
+print(result) #this calls the function which allows it to be executed
+
+#working with if statements
+is_female = False #this is a boolean variable ie true/false
+
+if is_female: #this a function
+    print ('you are a female') #these are the parameters/values passed into the function
+else: #begining of another function
+    print ('you are not a female')  #these are the parameters/values passed into the function
+
+#another scenario using 'or' in the statement
+is_female = True #this is a boolean variable ie true/false
+is_short = False ##this is a boolean variable ie true/false
+
+if is_female or is_short: #this a function
+    print ('you are a tall female') #these are the parameters/values passed into the function
+else: #begining of another function
+    print ('you are not a female')  #these are the parameters/values passed into the function
+
+#another scenario using 'and' in the statements
+#the difference between 'or' and 'and' is that both conditions has to be fulfilled when using 'and' but not necessary when using 'or'
+is_female = True #this is a boolean variable ie true/false
+is_short = False #this is a boolean variable ie true/false
+
+if is_female and is_short: #this a function
+    print ('you are a tall female') #these are the parameters/values passed into the function
+else: #begining of another function
+    print ('you are not a female')  #these are the parameters/values passed into the function
+
+#another scenario using 'elif' in the statement
+is_female = True #this is a boolean variable ie true/false
+is_short = False #this is a boolean variable ie true/false
+
+if is_female and is_short: #this a function
+    print ('you are a tall female') #these are the parameters/values passed into the function
+elif is_female and not (is_short): # using 'not' after 'and' negates everything that comes after whether it is true or false
+    print('you are not a short person') #this is the values returned when you run the code
+elif not is_female and is_short: # using 'not' after 'and' negates everything that comes after whether it is true or false
+    print('you are male person') #this is the values returned when you run the code
+else: #begining of another function
+    print ('you are not a female')  #these are the parameters/values passed into the function

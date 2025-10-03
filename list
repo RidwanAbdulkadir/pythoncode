@@ -1,0 +1,27 @@
+#working with lists
+friends = [ "halima", "bukola", "yusuf", "bilal","omolade", 'ayoka', 'asabi']
+friends[1] = 'mike'
+friends.sort() #sorts the items in the list in order either alphabetically or in ascending/descending order
+print (friends[1]) #returns variables based on the assigned index on the list
+print (friends[-2]) #returns variables starting from the back of the list
+print (friends[2:]) #grabs everything from index number two and everything after
+print (friends[2:5]) #grabs from index number two to five
+
+#list functions
+lucky_numbers = [4,23,45,12,21,13,14,3,5,6,7,6]
+friends.extend(lucky_numbers) #append the friend list with other desired list
+lucky_numbers.sort() #arrange the numbers in the list in ascending order
+#lucky_numbers.reverse() #returns the numbers in reverse order
+friends.insert(3, 'faruk') #insert object into list from index 3 in the list
+friends.remove('ayoka') #removes specified object in the list
+#friends.pop() #removes the last element in the list
+#friends.clear() #removes every object in the list
+
+print (friends)
+print (friends.index('omolade')) #returns the index number of the variable or function/string
+print (friends.count('omolade')) #returns how many times a value appears in the list
+print (lucky_numbers) #returns the numbers in ascending order
+
+friends2 = friends.copy() 
+
+print (friends)

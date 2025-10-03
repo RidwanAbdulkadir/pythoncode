@@ -1,0 +1,11 @@
+#strings, functions and index
+phrase = "olosun family"
+print (phrase + " is my family origin") #this returnes the function defined plus another string appeneded unto it
+print (phrase.upper()) #this prints the defined function in uppercase
+print (phrase.isupper())  #this confirms if the defined function is in uppercase or not
+print (len(phrase)) #checks the numbers of characters in a function or string
+print (phrase[4]) #this returns the first character of the string or index
+print (phrase.index("o")) #returns the location of a string or index
+print (phrase.replace("olosun","abdulkadir"))  #this replace the value of the old string/character with the desired one
+print ("who\nknows\nraw\ndog\njupiter") #this returns the items in the string in a list format when \n is used in between them
+

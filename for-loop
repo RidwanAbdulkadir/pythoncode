@@ -1,0 +1,22 @@
+#working with for loop
+for letter in 'armageddon control':
+    print(letter)
+
+#another scenario
+friends = ('demola', 'ore','ifemi','ayomi')
+
+for friend in friends:
+    print(friend)
+
+#another scenario
+for index in range(20):
+    print(index)
+
+#another scenario
+for index in range(5):
+    if index == 0:
+        print('first iteration')
+    else:
+        print('not  first iteration')
+
+

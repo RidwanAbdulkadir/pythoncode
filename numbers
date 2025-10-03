@@ -1,0 +1,14 @@
+#working with numbers
+print (10 % 3) #this print only the remainder
+my_num = 12
+print (my_num) #return the specified variable or number
+print (str(my_num) + " is my favourite number") #adds/convert the variable to a string
+print (abs(my_num)) #Returns the absolute value of the number
+print (pow(5,2)) #Returns the power of the first number by the second one
+print (max(4,6)) #indicates which number is higher
+print (min(9,5)) #prints the lowest/minimum number
+print (round(8.9)) #Round up or round off numbers
+from math import * #imports maths functions
+print (floor(3.9)) #grabs the lowest number
+print (ceil (3.4)) #round up numbers no matter what
+print (sqrt(5)) #Returns square root of numbers
